@@ -15,7 +15,9 @@ fi
 # exercise: write a script that prints whether it is 
 # morning or not
 
-if [ date +%H < 12 ]; then
+tyme=$(date +%H)
+
+if [ "$tyme" -lt "$12" ]; then
 	echo "It's morning! Better eat breakfast."
 else
 	echo "It's not morning! Time for lunch/dinner."
