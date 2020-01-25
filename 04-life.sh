@@ -18,7 +18,7 @@ fi
 tyme=$(date +%H)
 
 if [ "$tyme" -lt "$12" ]; then
-	echo "It's morning! Better eat breakfast."
-else
-	echo "It's not morning! Time for lunch/dinner."
+	echo "Good morning sunshine"
+else 
+	echo "Time to work"
 fi
