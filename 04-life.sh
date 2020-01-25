@@ -14,3 +14,9 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+if [ date +%H < 12 ]; then
+	echo "It's morning!"
+else
+	echo "It's not morning!"
+fi
