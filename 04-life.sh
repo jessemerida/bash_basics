@@ -14,3 +14,11 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+thedate=$(date +%H)
+
+if [ "$thedate" -lt "$12" ]; then
+	echo "Good morning sunshine"
+else 
+	echo "Time to work"
+fi
