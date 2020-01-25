@@ -16,7 +16,7 @@ fi
 # morning or not
 
 if [ date +%H < 12 ]; then
-	echo "It's morning!"
+	echo "It's morning! Better eat breakfast."
 else
-	echo "It's not morning!"
+	echo "It's not morning! Time for lunch/dinner."
 fi
